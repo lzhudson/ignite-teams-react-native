@@ -64,7 +64,7 @@ export function Players() {
           players.length === 0 && { flex: 1 }
         ]}
       />
-      <Button title="Remvoer Turma" type="SECONDARY" />
+      <Button title="Remover Turma" type="SECONDARY" />
     </Container>
   )
 }
