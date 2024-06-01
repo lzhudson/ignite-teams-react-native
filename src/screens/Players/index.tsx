@@ -165,7 +165,7 @@ export function Players() {
          ]}
        />
       )}
-      <Button onPress={handleRemoveGroup} title="Remover Turma" type="SECONDARY" />
+      <Button onPress={handleRemoveGroup} title="Remover turma" type="SECONDARY" />
     </Container>
   )
 }
