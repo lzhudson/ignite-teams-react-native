@@ -84,6 +84,8 @@ export function Players() {
           value={newPlayerName}
           placeholder="Nome da pessoa"
           autoCorrect={false}
+          onSubmitEditing={hanldeAddPlayer}
+          returnKeyType="done"
         />
         <ButtonIcon onPress={hanldeAddPlayer} icon="add" />
       </Form>
